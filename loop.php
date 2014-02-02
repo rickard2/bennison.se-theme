@@ -24,6 +24,12 @@
         <?php the_content(); ?>
     </div>
 
+    <footer>
+        <?php if ( ! is_single() && ! is_page() ) : ?>
+            <a href="<?php the_permalink() ?>" rel="bookmark">Kommentera</a> (<?php comments_number() ?>)
+        <?php endif ?>
+    </footer>
+
 </article>
 
 <?php endwhile; endif; ?>

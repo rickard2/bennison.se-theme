@@ -34,6 +34,8 @@
 
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+    <link href='//fonts.googleapis.com/css?family=Codystar|Open+Sans|Raleway' rel='stylesheet' type='text/css'>
+
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -43,15 +45,16 @@
 
 <div id="container">
     <header role="banner">
+
+        <figure class="avatar">
+            <img src="//gravatar.com/avatar/<?php echo md5('jessica@bennison.se') ?>?s=128" alt="Jessica Bennison" title="Jessica Bennison" height="128" width="128">
+        </figure>
+        <figure class="avatar">
+            <img src="//gravatar.com/avatar/<?php echo md5('rickard@0x539.se') ?>?s=128" alt="Rickard Andersson" title="Rickard Andersson" height="128" width="128">
+        </figure>
         <a href="<?php bloginfo( 'url' ) ?>" rel="home">
-            <hgroup>
-                <h1><?php bloginfo( 'name' ) ?></h1>
-                <h2><?php bloginfo( 'description' ) ?></h2>
-            </hgroup>
+            <h1>Rickard <span class="and">&</span> Jessica</h1>
         </a>
-
     </header>
-
-    <?php get_search_form() ?>
 
     <?php wp_nav_menu( array( 'container' => 'nav', 'theme_location' => 'header' ) ) ?>

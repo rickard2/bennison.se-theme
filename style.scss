@@ -1,16 +1,24 @@
 /*!
-Theme Name: Montania Wordpress Theme Boilerplate
-Theme URI: http://www.montania.se/
-Description: Theme boilerplate
+Theme Name: bennison.se
+Theme URI: http://www.bennison.se/
+Description: bennison.se
 Version: 1.0
 Author: Rickard Andersson
-Author URI: http://www.montania.se/
-License: Commercial license
-License URI: http://www.montania.se/
-Tags: montania, html5, boilerplate
+Author URI: https://0x539.se
+License: WTFPL
+License URI: http://internet
+Tags: bennison.se
 */
+
+$baseColor: #0c7a84;
+$accentColor: #07616a;
 
 @import 'scss/mixins';
 @import 'scss/normalize';
 @import 'scss/h5bp';
 @import 'scss/wordpress';
+@import 'scss/header';
+@import 'scss/layout';
+@import 'scss/nav';
+@import 'scss/article';
+@import 'scss/typography';

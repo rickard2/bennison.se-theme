@@ -1,0 +1,25 @@
+[role="banner"] {
+
+    background: $baseColor;
+
+    figure.avatar {
+        border-radius: 128px;
+        border: solid 2px $accentColor;
+
+        img {
+            border-radius: 128px;
+            -webkit-filter: saturate(60%) contrast(150%);
+            -moz-filter: saturate(60%) contrast(150%);
+            filter: saturate(60%) contrast(150%);
+        }
+
+        &:first-of-type {
+            float: right;
+        }
+        &:last-of-type {
+            float: left;
+        }
+    }
+
+    @include clearfix;
+}
