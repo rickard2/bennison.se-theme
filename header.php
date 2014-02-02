@@ -47,10 +47,10 @@
     <header role="banner">
 
         <figure class="avatar">
-            <img src="//gravatar.com/avatar/<?php echo md5('jessica@bennison.se') ?>?s=128" alt="Jessica Bennison" title="Jessica Bennison" height="128" width="128">
+            <img src="//gravatar.com/avatar/<?php echo md5('jessica@bennison.se') ?>?s=256" alt="Jessica Bennison" title="Jessica Bennison" height="128" width="128">
         </figure>
         <figure class="avatar">
-            <img src="//gravatar.com/avatar/<?php echo md5('rickard@0x539.se') ?>?s=128" alt="Rickard Andersson" title="Rickard Andersson" height="128" width="128">
+            <img src="//gravatar.com/avatar/<?php echo md5('rickard@0x539.se') ?>?s=256" alt="Rickard Andersson" title="Rickard Andersson" height="128" width="128">
         </figure>
         <a href="<?php bloginfo( 'url' ) ?>" rel="home">
             <h1>Rickard <span class="and">&</span> Jessica</h1>
