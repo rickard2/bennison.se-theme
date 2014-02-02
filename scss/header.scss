@@ -11,9 +11,7 @@
     }
 
     h1 {
-        @include breakpoint(baby-bear) {
-            margin: 0;
-        }
+        margin-bottom: 0;
     }
 
     figure.avatar {
