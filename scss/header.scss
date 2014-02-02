@@ -2,9 +2,27 @@
 
     background: $baseColor;
 
+    .and {
+        margin: 0 0.7em;
+
+        @include breakpoint(papa-bear) {
+            margin: 0;
+        }
+    }
+
+    h1 {
+        @include breakpoint(baby-bear) {
+            margin: 0;
+        }
+    }
+
     figure.avatar {
         border-radius: 128px;
         border: solid 2px $accentColor;
+
+        @include breakpoint(baby-bear) {
+            margin-bottom: 1em;
+        }
 
         img {
             border-radius: 128px;

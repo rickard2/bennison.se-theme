@@ -93,7 +93,7 @@
 
 @mixin breakpoint($point) {
     @if $point == papa-bear {
-        @media (max-width: 768px) {
+        @media (max-width: 950px) {
             @content;
         }
     } @else if $point == mama-bear {
