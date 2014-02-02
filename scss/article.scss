@@ -1,9 +1,13 @@
 article {
     margin-bottom: 5em;
-    max-width: 950px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+
+    .entry-content {
+        text-align: justify;
+        line-height: 1.65em;
+    }
 
     .entry-date, footer {
         font-size: 0.8em;

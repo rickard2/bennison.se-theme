@@ -28,6 +28,10 @@
         <?php if ( ! is_single() && ! is_page() ) : ?>
             <a href="<?php the_permalink() ?>" rel="bookmark">Kommentera</a> (<?php comments_number() ?>)
         <?php endif ?>
+
+        <?php if ( is_single() ) : ?>
+            <?php comment_form(); ?>
+        <?php endif ?>
     </footer>
 
 </article>
