@@ -47,7 +47,7 @@ class Bennison
 
         // Only enqueue files on the public part of the page
         if (!is_admin() && !is_login_page()) {
-            wp_enqueue_style($this->theme_name . '-style', get_bloginfo('stylesheet_directory') . '/style.css');
+            wp_enqueue_style($this->theme_name . '-style', get_bloginfo('stylesheet_directory') . '/style.css', false, 2);
             wp_enqueue_script('modernizr', get_bloginfo('stylesheet_directory') . '/js/vendor/modernizr-2.6.3.min.js');
         }
     }

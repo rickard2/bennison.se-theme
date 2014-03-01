@@ -1,4 +1,6 @@
 nav {
+    padding: 0.5em 0;
+
     background: $accentColor;
 
     text-align: center;
@@ -17,5 +19,6 @@ nav {
     li {
         display: inline-block;
         margin-right: 2em;
+        padding: 0.5em 0;
     }
 }
