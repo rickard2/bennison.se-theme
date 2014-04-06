@@ -3,11 +3,7 @@
  */
 .aligncenter {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    text-align: center;
+    margin: 1em auto;
 }
 
 .alignleft {
@@ -26,6 +22,10 @@
     text-align: center;
     margin: 10px 0;
     font-style: italic;
+    
+    &.aligncenter {
+        margin: 1em auto;
+    }
 }
 
 .wp-caption img {
