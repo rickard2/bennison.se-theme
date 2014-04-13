@@ -53,7 +53,7 @@
             <img src="//gravatar.com/avatar/<?php echo md5('rickard@0x539.se') ?>?s=256" alt="Rickard Andersson" title="Rickard Andersson" height="128" width="128">
         </figure>
         <a href="<?php bloginfo( 'url' ) ?>" rel="home">
-            <h1>Rickard <span class="and">&</span> Jessica</h1>
+            <h1><?php echo html_entity_decode(get_option('blogname')) ?></h1>
         </a>
     </header>
 
