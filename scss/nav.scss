@@ -1,4 +1,4 @@
-nav {
+#container > nav {
     padding: 0.5em 0;
 
     background: $accentColor;
@@ -20,5 +20,16 @@ nav {
         display: inline-block;
         margin-right: 2em;
         padding: 0.5em 0;
+    }
+}
+
+nav.pager {
+    margin-top: 3em;
+    font-size: 0.9em;
+
+    @include clearfix;
+
+    .next-page {
+        float: right;
     }
 }

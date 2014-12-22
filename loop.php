@@ -33,3 +33,22 @@
 </article>
 
 <?php endwhile; endif; ?>
+
+<?php $next = get_next_posts_link() ?>
+<?php $previous = get_previous_posts_link() ?>
+
+<?php if ($next || $previous) : ?>
+    <nav class="pager">
+        <?php if ($next) : ?>
+            <div class="next-page">
+                <?php echo $next ?>
+            </div>
+        <?php endif ?>
+
+        <?php if ($previous) : ?>
+            <div class="previous-page">
+                <?php echo $previous ?>
+            </div>
+        <?php endif ?>
+    </nav>
+<?php endif ?>
